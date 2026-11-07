@@ -8,17 +8,16 @@ A console-based **Contacts Addressbook** application written in **C**. It stores
 
 1. [About the Project](#about-the-project)
 2. [Features](#features)
-3. [Demo Video](#demo-video)
-4. [Project Structure](#project-structure)
-5. [Requirements](#requirements)
-6. [Getting Started](#getting-started)
-7. [How to Use](#how-to-use)
-8. [Input Validation Rules](#input-validation-rules)
-9. [Data Storage](#data-storage)
-10. [Code Overview](#code-overview)
-11. [Limitations](#limitations)
-12. [Future Improvements](#future-improvements)
-13. [Author](#author)
+3. [Project Structure](#project-structure)
+4. [Requirements](#requirements)
+5. [Getting Started](#getting-started)
+6. [How to Use](#how-to-use)
+7. [Input Validation Rules](#input-validation-rules)
+8. [Data Storage](#data-storage)
+9. [Code Overview](#code-overview)
+10. [Limitations](#limitations)
+11. [Future Improvements](#future-improvements)
+12. [Author](#author)
 
 ---
 
@@ -43,15 +42,6 @@ The code is split into separate modules (menu, contact operations, file handling
 - **Input validation**: invalid names, phone numbers and emails are rejected with a clear error message, and you are asked to enter them again.
 - **Permanent storage**: contacts are saved to and loaded from a CSV file.
 - **Duplicate names handled**: when several contacts share a name, they are listed with index numbers so you can pick the right one to edit or delete.
-
-<a id="demo-video"></a>
-## Demo Video
-
-Watch the program in action: creating, searching, editing, deleting, sorting and saving contacts.
-
-<video src="demo/demo.mp4" controls width="100%"></video>
-
-If the video does not play above, [click here to open it](demo/demo.mp4).
 
 <a id="project-structure"></a>
 ## Project Structure
@@ -85,8 +75,8 @@ AddressBook/
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/AddressBook.git
-cd AddressBook
+git clone https://github.com/Pranav-projt-embb/Contacts-Addressbook-c.git
+cd Contacts-Addressbook-c
 ```
 
 **2. Build**
