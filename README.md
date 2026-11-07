@@ -56,8 +56,7 @@ AddressBook/
 ├── Makefile           # Build instructions
 ├── contacts.csv       # Contact data file (sample contacts included)
 ├── documentation.txt  # Short description of every function
-├── demo/
-│   └── demo.mp4       # Demo video
+├── demo               # demo screenshots
 ├── .gitignore         # Keeps build output out of the repository
 └── README.md          # Project documentation
 ```
