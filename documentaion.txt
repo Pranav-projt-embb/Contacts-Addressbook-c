@@ -1,0 +1,71 @@
+main.c 
+Controls the complete AddressBook application.
+Displays the main menu and calls the required operation.
+1. initialize()
+Initializes the Address Book.
+Loads existing contacts from the CSV file.
+
+2. createContact()
+Creates and stores a new contact.
+Takes name, phone number and email from the user.
+Validation: Name, phone number and email are validated before storing.
+Duplicate phone numbers and email IDs are not allowed.
+
+3. searchContact()
+Searches contacts using name, phone number or email ID.
+If multiple matching contacts are found, the user can select the required contact.
+Displays an appropriate message when no contact is found.
+
+4. editContact()
+Allows the user to edit an existing contact.
+The selected name, phone number or email is updated.
+Validation: The new name, phone number and email are validated before updating.
+Duplicate phone numbers and email IDs are not allowed.
+
+5. deleteContact()
+Deletes an existing contact.
+Allows the user to select the required contact when multiple matches are found.
+Displays a message if no matching contact is found.
+
+6. listContacts()
+Displays all contacts.
+Provides sorting by:
+Name
+Phone number
+Email ID
+
+7. saveContactsToFile()
+Stores all contacts permanently in contacts.csv.
+Writes the contact details in CSV format.
+
+8. loadContactsFromFile()
+Reads contacts from contacts.csv.
+Separates each record into name, phone number and email.
+Loads the records into the Address Book.
+
+9.validateName()
+Checks the minimum length of the name.
+Allows only alphabets and spaces.
+Rejects invalid characters.
+
+10.validateMobile()
+Checks that the phone number contains exactly 10 digits.
+First digit must be between 6 and 9.
+Only numeric characters are allowed.
+
+
+11.validateEmail()
+Checks the email format.
+@ must be present only for one time.
+'." must be present only for one time.
+Characters before @ are validated.
+Email must end with gmail.com.
+
+12.isunique_number()
+checks mobilenumber must be unique
+
+13.isunique_email()
+checks emailId must must be unique.
+
+14.Delete()
+delete given contacts details.After deletion, the remaining contacts are shifted correctly.
